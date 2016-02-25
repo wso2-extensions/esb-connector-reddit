@@ -80,30 +80,30 @@ STEPS:
      	startDate   : Start date of the notifications
      	user        : user name
      	email       : Email Address
-     	password1: password for account
-     	password2: password for account (it should be same as password1)
-     	destination: Destination
-     	rem: rem is a boolean value which is need to register new account
-     	reason: Purpose for creating account
+     	password1   : password for account
+     	password    : password for account (it should be same as password1)
+     	destination : Destination
+     	rem         : rem is a boolean value which is need to register new account
+     	reason      : Purpose for creating account
      	includeFacets: A boolean value
-     	type: Comma-delimited list of result types (sr, link)
-     	syntax: One of (cloudsearch, lucene, plain)
-     	restrictSr: A boolean value
-     	str: A string
-	expandSrs: A boolean value
+     	type        : Comma-delimited list of result types (sr, link)
+     	syntax      : One of (cloudsearch, lucene, plain)
+     	restrictSr  : A boolean value
+     	str         : A string
+	expandSrs   : A boolean value
 Note:
-     getAnyPublicMultisList: if you have any public multis in your account, then only can get right response.otherwise
-                             you should get null string response.
-     getCurrentUserMultisList: if you have own multis list in your account, then only can get right response.
-                               otherwise you should get response with null string.
-     getSubredditKarma: if you have any karma points in your account, then only can get right response. otherwise you
-                        should get response with null string.
-     getUserModeratorSubreddit: if you have any moderator subreddit, then only can get right response. otherwise
-                                you should get response with null string.
-     getUserNotifications:if you have any notifications in your account, then only you can get right response. otherwise
-                          you should get response with null string.
-     reddit_register : if you need to register new reddit account, you need to give unique user name which is not
-                       already registered in reddit account.
+     getAnyPublicMultisList    : if you have any public multis in your account, then only can get right response.otherwise
+                                 you should get null string response.
+     getCurrentUserMultisList  : if you have own multis list in your account, then only can get right response.
+                                 otherwise you should get response with null string.
+     getSubredditKarma         : if you have any karma points in your account, then only can get right response. otherwise you
+                                 should get response with null string.
+     getUserModeratorSubreddit : if you have any moderator subreddit, then only can get right response. otherwise
+                                 you should get response with null string.
+     getUserNotifications      : if you have any notifications in your account, then only you can get right response. otherwise
+                                 you should get response with null string.
+     reddit_register           : if you need to register new reddit account, you need to give unique user name which is not
+                                 already registered in reddit account.
 Note: 	If you get 429 Error (In Integration Test) , then try to test the failed test cases individually. This is happened because
 	of the limitations of the api request.
 9. Navigate to "{Reddit_Connector_Home}/" and run the following command.
