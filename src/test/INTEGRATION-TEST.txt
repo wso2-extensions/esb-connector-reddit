@@ -2,6 +2,8 @@ Product: Integration tests for WSO2 ESB reddit connector
 Pre-requisites:
 - Maven 3.x
 - Java 1.6 or above
+- The org.wso2.esb.integration.integration-base project is required and It will found in https://github.com/wso2-extensions/esb-integration-base.
+
 
 Tested Platform:
 - Ubuntu 14.04
@@ -106,5 +108,5 @@ Note:
                        already registered in reddit account.
 Note: 	If you get 429 Error (In Integration Test) , then try to test the failed test cases individually. This is happened because
 	of the limitations of the api request.
-9. Navigate to "{Reddit_Connector_Home}/" and run the following command.
+9. Navigate to "{REDDIT_CONNECTOR_HOME}/" and run the following command.
      $ mvn clean install
