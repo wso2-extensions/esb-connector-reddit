@@ -59,7 +59,7 @@ STEPS:
    	    When try to do the manual testing, Consider the endpoint "https://oauth.reddit.com/" to the Oauth scope methods such as Read,
    	    Identity,Submit,PrivateMessages,Subreddit,History and etc.
 
-6.   Modify the proxy file in following location "/src/test/resources/artifacts/ESB/config/proxies/reddit/
+6.   Modify the proxy file in following location "{REDDIT_CONNECTOR_HOME}/src/test/resources/artifacts/ESB/config/proxies/reddit/
 
 7. Edit the "reddit.properties" at src/test/resources/artifacts/connector/config/ using valid and relevant data. Parameters to be changed    are mentioned below.
      	accessToken : Access token (it should refresh after a 3600 sec, Make sure that after every 3600 sec change your
