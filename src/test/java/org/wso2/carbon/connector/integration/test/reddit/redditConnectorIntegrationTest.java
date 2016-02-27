@@ -38,7 +38,7 @@ public class redditConnectorIntegrationTest extends ConnectorIntegrationTestBase
      */
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
-        init("reddit-connector-1.0.0");
+        init("reddit-connector-1.0.1-SNAPSHOT");
         esbRequestHeadersMap.put("Content-Type", "application/json");
         esbRequestHeadersMap.put("Action", "getAccessTokenFromRefreshToken");
         RestResponse<JSONObject> esbRestResponse =
